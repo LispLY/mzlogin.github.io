@@ -2,12 +2,12 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: https://mazhuang.org
+url: https://lisply.github.io/
 date_format: "ordinal"
-title: 码志
-subtitle: "打码改变人生"
-description: "马壮的个人博客"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang
+title: LispLY
+subtitle: "陆遥的博客"
+description: "陆遥的博客"
+keywords: 陆遥,lisply
 timezone: Asia/Shanghai
 encoding: "utf-8"
 side_bar_repo_limit: 5
@@ -15,45 +15,43 @@ side_bar_repo_limit: 5
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
+author: 陆遥
 organization: 
 organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+github_username: LispLY
+location: China
+email: lisply@gmail.com
 
 # ---------------- #
 #    Navigation    #
 # ---------------- #
-navs:
-  -
-    href: /
-    label: 首页
 
-  -
-    href: /categories/
-    label: 分类
+# navs:
+#   -
+#     href: /
+#     label: 首页
 
 #   -
-#     href: /archives/
-#     label: 归档
+#     href: /categories/
+#     label: 分类
 
-  -
-    href: /wiki/
-    label: 维基
+#   -
+#     href: /wiki/
+#     label: 维基
 
-  -
-    href: /links/
-    label: 链接
+#   -
+#     href: /links/
+#     label: 链接
 
-  -
-    href: /about/
-    label: 关于
+#   -
+#     href: /about/
+#     label: 关于
 
 # ---------------- #
 #       RSS        #
 # ---------------- #
-subscribe_rss: /feed.xml
+
+# subscribe_rss: /feed.xml
 
 # ---------------- #
 #      Jekyll      #
@@ -81,31 +79,31 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: mzlogin/mzlogin.github.io
+repository: LispLY/LispLY.github.io
 
 # ---------------- #
 #      Comments    #
 # ---------------- #
 # support provider: disqus, gitment, gitalk
-comments_provider: gitalk
+comments_provider: disqus
 # !!!重要!!! 请修改下面这些信息为你自己申请的
 # !!!Important!!! Please modify infos below to yours
 # https://disqus.com
 disqus:
-    username: 
+    username: 陆遥
 # https://imsun.net/posts/gitment-introduction/
-gitment:
-    owner: mzlogin
-    repo: blog-comments
-    oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+# gitment:
+#     owner: mzlogin
+#     repo: blog-comments
+#     oauth:
+#         client_id: d2e1cbbd298958076462
+#         client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # https://github.com/gitalk/gitalk#install
-gitalk:
-    owner: mzlogin
-    repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+# gitalk:
+#     owner: mzlogin
+#     repo: blog-comments
+#     clientID: d2e1cbbd298958076462
+#     clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
@@ -121,5 +119,5 @@ simple_jekyll_search:
 # ---------------- #
 #    Analytics     #
 # ---------------- #
-google:
-    analytics_id: UA-80669434-1
+# google:
+#     analytics_id: UA-80669434-1
